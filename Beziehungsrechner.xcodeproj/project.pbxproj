@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BFA2DDB1BE428A700D0A9FD /* Calculater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA2DDA1BE428A700D0A9FD /* Calculater.swift */; };
 		80E232BB1B56B256004CA556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E232BA1B56B256004CA556 /* AppDelegate.swift */; };
 		80E232BD1B56B256004CA556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E232BC1B56B256004CA556 /* ViewController.swift */; };
 		80E232C01B56B256004CA556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E232BE1B56B256004CA556 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BFA2DDA1BE428A700D0A9FD /* Calculater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculater.swift; sourceTree = "<group>"; };
 		80E232B71B56B256004CA556 /* Beziehungsrechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beziehungsrechner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E232BA1B56B256004CA556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80E232BC1B56B256004CA556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				80E232C11B56B256004CA556 /* Assets.xcassets */,
 				80E232C31B56B256004CA556 /* LaunchScreen.storyboard */,
 				80E232C61B56B256004CA556 /* Info.plist */,
+				3BFA2DDA1BE428A700D0A9FD /* Calculater.swift */,
 			);
 			path = Beziehungsrechner;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				TargetAttributes = {
 					80E232B61B56B256004CA556 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 87476L62QY;
 					};
 					80E232CA1B56B256004CA556 = {
 						CreatedOnToolsVersion = 7.0;
@@ -256,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80E232BD1B56B256004CA556 /* ViewController.swift in Sources */,
+				3BFA2DDB1BE428A700D0A9FD /* Calculater.swift in Sources */,
 				80E232BB1B56B256004CA556 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,10 +403,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Beziehungsrechner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dabendorf.Beziehungsrechner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -409,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Beziehungsrechner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dabendorf.Beziehungsrechner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -483,6 +494,7 @@
 				80E232E11B56B256004CA556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80E232E21B56B256004CA556 /* Build configuration list for PBXNativeTarget "BeziehungsrechnerTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +503,7 @@
 				80E232E41B56B256004CA556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80E232E51B56B256004CA556 /* Build configuration list for PBXNativeTarget "BeziehungsrechnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +512,7 @@
 				80E232E71B56B256004CA556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
