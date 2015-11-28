@@ -39,9 +39,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         if complete {
             let calc = Calculate(names: names)
-            labelErgebnis.text = "Beziehungsrate: \(calc.getRelationRate()) %"
+            labelErgebnis.text = "relationship rate: \(calc.getRelationRate()) %"
         } else {
-            labelErgebnis.text = "Es fehlen Namen!"
+            labelErgebnis.text = "Names are missing!"
         }
     }
     

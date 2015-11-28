@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Person 1"; ObjectID = "7JC-ZC-V9t"; */
+"7JC-ZC-V9t.text" = "Person 1";
+
+/* Class = "UITextField"; placeholder = "Person 1"; ObjectID = "97e-I8-Gaw"; */
+"97e-I8-Gaw.placeholder" = "Person 1";
+
+/* Class = "UILabel"; text = "Beziehungsrechner"; ObjectID = "EZ2-d4-Hrs"; */
+"EZ2-d4-Hrs.text" = "Beziehungsrechner";
+
+/* Class = "UILabel"; text = "Person 2"; ObjectID = "JSL-tn-YPb"; */
+"JSL-tn-YPb.text" = "Person 2";
+
+/* Class = "UIButton"; normalTitle = "Berechnen"; ObjectID = "rBX-MW-yVk"; */
+"rBX-MW-yVk.normalTitle" = "Berechnen";
+
+/* Class = "UITextField"; placeholder = "Person 2"; ObjectID = "ulD-on-ccO"; */
+"ulD-on-ccO.placeholder" = "Person 2";

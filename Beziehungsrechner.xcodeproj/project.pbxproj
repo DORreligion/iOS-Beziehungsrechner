@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BEA5ED81C09D90A009536CA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		3BEA5ED91C09D90A009536CA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		3BFA2DDA1BE428A700D0A9FD /* Calculater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculater.swift; sourceTree = "<group>"; };
 		80E232B71B56B256004CA556 /* Beziehungsrechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beziehungsrechner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E232BA1B56B256004CA556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80E232BF1B56B256004CA556 /* Base */,
+				3BEA5ED81C09D90A009536CA /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80E232C41B56B256004CA556 /* Base */,
+				3BEA5ED91C09D90A009536CA /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
