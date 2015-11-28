@@ -37,7 +37,6 @@ class Calculate {
             numbers.append(counter)
             counter = 0
         }
-        print(numbers)
     }
     
     func calc() {

@@ -247,7 +247,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfJ-oy-YfH">
                                 <rect key="frame" x="165" y="197" width="271" height="21"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Tz8-NL-dMB"/>
                                     <constraint firstAttribute="width" constant="271" id="k8z-1d-DcE"/>
@@ -256,14 +255,24 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.70351285460992918" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ds1-L3-o44">
+                                <rect key="frame" x="165" y="226" width="271" height="2"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="271" id="itW-Bz-bq9"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="pLj-I6-BNq"/>
+                                </constraints>
+                            </progressView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bfJ-oy-YfH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0ab-Bg-gjt"/>
                             <constraint firstItem="bfJ-oy-YfH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7hm-4E-eev"/>
+                            <constraint firstItem="ds1-L3-o44" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Zs-4o-YaI"/>
                             <constraint firstItem="rBX-MW-yVk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cyb-TJ-mpj"/>
                             <constraint firstItem="bfJ-oy-YfH" firstAttribute="centerX" secondItem="rBX-MW-yVk" secondAttribute="centerX" id="G3b-Dh-Vof"/>
+                            <constraint firstItem="ds1-L3-o44" firstAttribute="top" secondItem="bfJ-oy-YfH" secondAttribute="bottom" constant="8" id="PMp-Hv-eDX"/>
                             <constraint firstItem="F9M-Qk-qMZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QgH-SG-fsa"/>
                             <constraint firstItem="F9M-Qk-qMZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S8w-qj-6eI"/>
                             <constraint firstItem="rBX-MW-yVk" firstAttribute="top" secondItem="48F-zY-5j9" secondAttribute="bottom" constant="13" id="U7N-Mm-bPd"/>
@@ -285,6 +294,8 @@
                         <outlet property="getName1" destination="97e-I8-Gaw" id="2Mb-1b-yvK"/>
                         <outlet property="getName2" destination="ulD-on-ccO" id="s3H-Wm-1Dg"/>
                         <outlet property="labelErgebnis" destination="bfJ-oy-YfH" id="6o1-hp-vB2"/>
+                        <outlet property="progressView" destination="9Zs-4o-YaI" id="e0I-ep-36s"/>
+                        <outlet property="progressViewRate" destination="ds1-L3-o44" id="ih5-RJ-QEv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

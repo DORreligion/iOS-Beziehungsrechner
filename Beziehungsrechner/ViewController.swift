@@ -9,10 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
-
+    
     @IBOutlet weak var getName1: UITextField!
     @IBOutlet weak var getName2: UITextField!
     @IBOutlet weak var labelErgebnis: UILabel!
+    @IBOutlet weak var progressView: NSLayoutConstraint!
+    @IBOutlet weak var progressViewRate: UIProgressView!
     
     @IBAction func calculateButton(sender: UIButton) {
         generateRelation()
@@ -40,8 +42,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if complete {
             let calc = Calculate(names: names)
             labelErgebnis.text = "relationship rate: \(calc.getRelationRate()) %"
+            progressViewRate.progress = Float(calc.getRelationRate())/100
         } else {
             labelErgebnis.text = "Names are missing!"
+            progressViewRate.progress = 0
         }
     }
     
@@ -50,12 +54,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.getName1.delegate = self
         self.getName2.delegate = self
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         self.view.endEditing(true)
         generateRelation()
