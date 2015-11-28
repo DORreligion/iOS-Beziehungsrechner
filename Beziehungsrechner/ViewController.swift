@@ -41,10 +41,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         if complete {
             let calc = Calculate(names: names)
-            labelErgebnis.text = "relationship rate: \(calc.getRelationRate()) %"
+            let ergebnistext = NSLocalizedString("relationship rate: %@ %", comment: "relationship rate: xx%")
+            labelErgebnis.text = String(format: ergebnistext, String(calc.getRelationRate()))
             progressViewRate.progress = Float(calc.getRelationRate())/100
         } else {
-            labelErgebnis.text = "Names are missing!"
+            let ergebnistext = NSLocalizedString("Names are missing!", comment: "Names are missing!")
+            labelErgebnis.text = ergebnistext
             progressViewRate.progress = 0
         }
     }

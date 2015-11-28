@@ -1,7 +1,7 @@
 /* Class = "UILabel"; text = "Person 1"; ObjectID = "7JC-ZC-V9t"; */
 "7JC-ZC-V9t.text" = "Person 1";
 
-/* Class = "UITextField"; placeholder = "Name 1"; ObjectID = "97e-I8-Gaw"; */
+/* Class = "UITextField"; placeholder = "Name 1       "; ObjectID = "97e-I8-Gaw"; */
 "97e-I8-Gaw.placeholder" = "Name 1";
 
 /* Class = "UILabel"; text = "Relationship calculator"; ObjectID = "EZ2-d4-Hrs"; */
@@ -13,6 +13,6 @@
 /* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "rBX-MW-yVk"; */
 "rBX-MW-yVk.normalTitle" = "Berechnen";
 
-/* Class = "UITextField"; placeholder = "Name 2"; ObjectID = "ulD-on-ccO"; */
+/* Class = "UITextField"; placeholder = "Name 2       "; ObjectID = "ulD-on-ccO"; */
 "ulD-on-ccO.placeholder" = "Name 2";
 
