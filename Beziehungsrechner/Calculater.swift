@@ -31,7 +31,7 @@ class Calculate {
         for a in chars {
             for b in chars {
                 if(a==b) {
-                    counter++
+                    counter += 1
                 }
             }
             numbers.append(counter)
@@ -49,7 +49,7 @@ class Calculate {
         temp = length-1
         numbers.removeAll()
         
-        for var i=0;i<(length/2);i++ {
+        for i in 0 ..< (length/2) {
             counter = numbersStatic[i] + numbersStatic[temp]
             if counter > 9 {
                 while counter > 0 {
@@ -61,7 +61,7 @@ class Calculate {
             } else {
                 numbers.append(counter)
             }
-            temp--;
+            temp -= 1;
         }
         
         if length%2 != 0 {
